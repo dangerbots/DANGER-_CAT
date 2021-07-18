@@ -8,7 +8,7 @@ from . import ALIVE_NAME, StartTime, catversion, get_readable_time, mention, rep
 DEFAULTUSER = ALIVE_NAME or "SurCat"
 CAT_IMG = Config.ALIVE_PIC
 CUSTOM_ALIVE_TEXT = Config.CUSTOM_ALIVE_TEXT or "✮ MY BOT IS RUNNING SUCCESSFULLY ✮"
-EMOJI = Config.CUSTOM_ALIVE_EMOJI or "  ✥ "
+EMOJI = Config.CUSTOM_ALIVE_EMOJI or "  ❣️ "
 
 
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
