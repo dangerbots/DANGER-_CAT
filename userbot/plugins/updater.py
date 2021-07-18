@@ -275,7 +275,7 @@ async def upstream(event):
 )
 async def upstream(event):
     event = await edit_or_reply(event, "`Pulling the catpack repo wait a sec ....`")
-    off_repo = "https://github.com/Mr-confused/catpack"
+    off_repo = "https://github.com/dangerbots/catpack"
     os.chdir("/app")
     await _catutils.runcmd(f"rm -rf .git")
     try:
@@ -330,4 +330,4 @@ async def variable(var):
         )
     heroku_var = app.config()
     await edit_or_reply(var, f"`Changing goodcat to badcat wait for 2-3 minutes.`")
-    heroku_var["UPSTREAM_REPO"] = "https://github.com/Jisan09/catuserbot"
+    heroku_var["UPSTREAM_REPO"] = "https://github.com/dangerbots/DANGER_CAT"
