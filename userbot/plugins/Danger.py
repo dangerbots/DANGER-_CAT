@@ -584,7 +584,7 @@ async def insult(e):
 async def source(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit(
-            "Click [here](https://github.com/sandy1709/catuserbot) to open this lit af repo."
+            "Click [here](https://github.com/dangerbots/DANGER_CAT) to open this lit af repo."
         )
 
 
